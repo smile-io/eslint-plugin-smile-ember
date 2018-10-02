@@ -2,7 +2,8 @@
   "name": "eslint-plugin-smile-ember",
   "version": "0.1.0",
   "description": "smile.io's eslint rules for ember apps",
-  "keywords": ["eslint", "eslintplugin", "eslint-plugin"],
+  "keywords": ["eslint", "eslint-plugin", "eslintplugin"],
+  "license": "MIT",
   "author": "Sivakumar Kailasam",
   "main": "lib/index.js",
   "scripts": {
@@ -21,5 +22,9 @@
   "engines": {
     "node": ">=8.11"
   },
-  "license": "ISC"
+  "husky": {
+    "hooks": {
+      "pre-commit": "precise-commits"
+    }
+  }
 }
