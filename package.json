@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-smile-ember",
+  "version": "0.1.0",
+  "description": "smile.io's eslint rules for ember apps",
+  "keywords": ["eslint", "eslintplugin", "eslint-plugin"],
+  "author": "Sivakumar Kailasam",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "husky": "^1.1.0",
+    "jest": "^23.6.0",
+    "precise-commits": "^1.0.2",
+    "prettier": "^1.14.3"
+  },
+  "engines": {
+    "node": ">=8.11"
+  },
+  "license": "ISC"
+}
