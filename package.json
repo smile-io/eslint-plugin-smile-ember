@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-smile-ember",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "smile.io's eslint rules for ember apps",
   "keywords": [
     "eslint",
