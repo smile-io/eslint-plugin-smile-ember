@@ -845,8 +845,6 @@ eslintTester.run('order-in-components', rule, {
     {
       code: `export default Component.extend({
         
-        layout: '',
-
         tagName: 'div',
         
         attributeBindings: [],
@@ -854,6 +852,8 @@ eslintTester.run('order-in-components', rule, {
         classNames: [],
         
         classNameBindings: [],
+
+        layout: '',
 
         session: service(),
 
