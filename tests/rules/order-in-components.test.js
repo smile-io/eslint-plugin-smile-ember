@@ -284,7 +284,12 @@ const validTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     options: [
       {
-        order: ['property', 'multi-line-function', 'single-line-function', 'actions'],
+        order: [
+          'property',
+          'multi-line-function',
+          'single-line-function',
+          'actions',
+        ],
       },
     ],
   },
@@ -304,7 +309,11 @@ const validTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     options: [
       {
-        order: ['property', ['single-line-function', 'multi-line-function'], 'actions'],
+        order: [
+          'property',
+          ['single-line-function', 'multi-line-function'],
+          'actions',
+        ],
       },
     ],
   },
@@ -393,11 +402,13 @@ const invalidTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     errors: [
       {
-        message: 'The "role" private property should be above the actions hash on line 2',
+        message:
+          'The "role" private property should be above the actions hash on line 2',
         line: 4,
       },
       {
-        message: 'The "vehicle" single-line function should be above the actions hash on line 2',
+        message:
+          'The "vehicle" single-line function should be above the actions hash on line 2',
         line: 6,
       },
       {
@@ -603,7 +614,8 @@ const invalidTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     errors: [
       {
-        message: 'The "init" lifecycle hook should be above the actions hash on line 2',
+        message:
+          'The "init" lifecycle hook should be above the actions hash on line 2',
         line: 3,
       },
     ],
@@ -618,7 +630,8 @@ const invalidTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     errors: [
       {
-        message: 'The "customFunc" method should be above the actions hash on line 2',
+        message:
+          'The "customFunc" method should be above the actions hash on line 2',
         line: 3,
       },
     ],
@@ -660,7 +673,8 @@ const invalidTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     errors: [
       {
-        message: 'The private property should be above the actions hash on line 4',
+        message:
+          'The private property should be above the actions hash on line 4',
         line: 5,
       },
     ],
@@ -674,7 +688,8 @@ const invalidTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     errors: [
       {
-        message: 'The "role" private property should be above the actions hash on line 2',
+        message:
+          'The "role" private property should be above the actions hash on line 2',
         line: 3,
       },
     ],
@@ -688,7 +703,8 @@ const invalidTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     errors: [
       {
-        message: 'The "role" private property should be above the actions hash on line 2',
+        message:
+          'The "role" private property should be above the actions hash on line 2',
         line: 3,
       },
     ],
@@ -702,7 +718,8 @@ const invalidTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     errors: [
       {
-        message: 'The "role" private property should be above the actions hash on line 2',
+        message:
+          'The "role" private property should be above the actions hash on line 2',
         line: 3,
       },
     ],
@@ -716,7 +733,8 @@ const invalidTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     errors: [
       {
-        message: 'The "template" private property should be above the actions hash on line 3',
+        message:
+          'The "template" private property should be above the actions hash on line 3',
         line: 4,
       },
     ],
@@ -763,7 +781,8 @@ const invalidTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     errors: [
       {
-        message: 'The "didReceiveAttrs" lifecycle hook should be above the actions hash on line 2',
+        message:
+          'The "didReceiveAttrs" lifecycle hook should be above the actions hash on line 2',
         line: 3,
       },
       {
@@ -772,11 +791,13 @@ const invalidTestsFromEmberTestSuite = [
         line: 4,
       },
       {
-        message: 'The "didInsertElement" lifecycle hook should be above the actions hash on line 2',
+        message:
+          'The "didInsertElement" lifecycle hook should be above the actions hash on line 2',
         line: 5,
       },
       {
-        message: 'The "init" lifecycle hook should be above the actions hash on line 2',
+        message:
+          'The "init" lifecycle hook should be above the actions hash on line 2',
         line: 6,
       },
     ],

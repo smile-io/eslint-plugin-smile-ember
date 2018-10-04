@@ -106,7 +106,8 @@ const invalidTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     errors: [
       {
-        message: 'The "shape" attribute should be above the "behaviors" relationship on line 2',
+        message:
+          'The "shape" attribute should be above the "behaviors" relationship on line 2',
         line: 3,
       },
     ],
@@ -136,7 +137,8 @@ const invalidTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     errors: [
       {
-        message: 'The "shape" attribute should be above the "mood" multi-line function on line 2',
+        message:
+          'The "shape" attribute should be above the "mood" multi-line function on line 2',
         line: 4,
       },
     ],
@@ -151,7 +153,8 @@ const invalidTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     errors: [
       {
-        message: 'The "shape" attribute should be above the "behaviors" relationship on line 2',
+        message:
+          'The "shape" attribute should be above the "behaviors" relationship on line 2',
         line: 3,
       },
     ],
@@ -181,7 +184,8 @@ const invalidTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     errors: [
       {
-        message: 'The "shape" attribute should be above the "mood" multi-line function on line 2',
+        message:
+          'The "shape" attribute should be above the "mood" multi-line function on line 2',
         line: 4,
       },
     ],
@@ -247,7 +251,8 @@ const invalidTestsFromEmberTestSuite = [
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     errors: [
       {
-        message: 'The "shape" attribute should be above the "behaviors" relationship on line 2',
+        message:
+          'The "shape" attribute should be above the "behaviors" relationship on line 2',
         line: 3,
       },
     ],
