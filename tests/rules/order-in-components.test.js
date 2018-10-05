@@ -285,9 +285,9 @@ const validTestsFromEmberTestSuite = [
     options: [
       {
         order: [
-          'property',
-          'multi-line-function',
-          'single-line-function',
+          'private:property',
+          'private:multi-line-function',
+          'private:single-line-function',
           'actions',
         ],
       },
@@ -298,9 +298,9 @@ const validTestsFromEmberTestSuite = [
           role: "sloth",
   
           computed1: alias('computed2'),
+          computed3: alias('computed1'),
           computed2: computed(function() {
           }),
-          computed3: alias('computed1'),
   
           actions: {},
   
@@ -310,8 +310,9 @@ const validTestsFromEmberTestSuite = [
     options: [
       {
         order: [
-          'property',
-          ['single-line-function', 'multi-line-function'],
+          'private:property',
+          'private:single-line-function',
+          'private:multi-line-function',
           'actions',
         ],
       },
@@ -356,10 +357,10 @@ const validTestsFromEmberTestSuite = [
   },
   {
     code: `export default Component.extend({
-          onFoo() {},
-          onFoo: () => {},
           foo: computed(function() {
           }).volatile(),
+          onFoo: () => {},
+          onFoo() {},
           bar() { const foo = 'bar'}
         });`,
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
@@ -376,10 +377,10 @@ const validTestsFromEmberTestSuite = [
     options: [
       {
         order: [
-          'property',
-          'empty-method',
-          'single-line-function',
-          'multi-line-function',
+          'private:property',
+          'private:empty-method',
+          'private:single-line-function',
+          'private:multi-line-function',
           'method',
         ],
       },
@@ -408,12 +409,12 @@ const invalidTestsFromEmberTestSuite = [
       },
       {
         message:
-          'The "vehicle" single-line function should be above the actions hash on line 2',
+          'The "vehicle" private single-line function should be above the actions hash on line 2',
         line: 6,
       },
       {
         message:
-          'The "levelOfHappiness" multi-line function should be above the actions hash on line 2',
+          'The "levelOfHappiness" private multi-line function should be above the actions hash on line 2',
         line: 8,
       },
     ],
@@ -433,7 +434,7 @@ const invalidTestsFromEmberTestSuite = [
     errors: [
       {
         message:
-          'The "role" private property should be above the "vehicle" single-line function on line 2',
+          'The "role" private property should be above the "vehicle" private single-line function on line 2',
         line: 4,
       },
     ],
@@ -453,12 +454,12 @@ const invalidTestsFromEmberTestSuite = [
     errors: [
       {
         message:
-          'The "vehicle" single-line function should be above the "levelOfHappiness" multi-line function on line 2',
+          'The "vehicle" private single-line function should be above the "levelOfHappiness" private multi-line function on line 2',
         line: 5,
       },
       {
         message:
-          'The "role" private property should be above the "levelOfHappiness" multi-line function on line 2',
+          'The "role" private property should be above the "levelOfHappiness" private multi-line function on line 2',
         line: 7,
       },
     ],
@@ -478,12 +479,12 @@ const invalidTestsFromEmberTestSuite = [
     errors: [
       {
         message:
-          'The "vehicle" single-line function should be above the "levelOfHappiness" multi-line function on line 2',
+          'The "vehicle" private single-line function should be above the "levelOfHappiness" private multi-line function on line 2',
         line: 5,
       },
       {
         message:
-          'The "role" private property should be above the "levelOfHappiness" multi-line function on line 2',
+          'The "role" private property should be above the "levelOfHappiness" private multi-line function on line 2',
         line: 7,
       },
     ],
@@ -503,12 +504,12 @@ const invalidTestsFromEmberTestSuite = [
     errors: [
       {
         message:
-          'The "vehicle" single-line function should be above the "levelOfHappiness" multi-line function on line 2',
+          'The "vehicle" private single-line function should be above the "levelOfHappiness" private multi-line function on line 2',
         line: 5,
       },
       {
         message:
-          'The "role" private property should be above the "levelOfHappiness" multi-line function on line 2',
+          'The "role" private property should be above the "levelOfHappiness" private multi-line function on line 2',
         line: 7,
       },
     ],
@@ -536,7 +537,7 @@ const invalidTestsFromEmberTestSuite = [
     errors: [
       {
         message:
-          'The "i18n" service injection should be above the "vehicle" single-line function on line 2',
+          'The "i18n" service injection should be above the "vehicle" private single-line function on line 2',
         line: 3,
       },
     ],
@@ -553,7 +554,7 @@ const invalidTestsFromEmberTestSuite = [
     errors: [
       {
         message:
-          'The "i18n" service injection should be above the "vehicle" single-line function on line 4',
+          'The "i18n" service injection should be above the "vehicle" private single-line function on line 4',
         line: 5,
       },
     ],
@@ -568,7 +569,7 @@ const invalidTestsFromEmberTestSuite = [
     errors: [
       {
         message:
-          'The "vehicle" single-line function should be above the "levelOfHappiness" observer on line 2',
+          'The "vehicle" private single-line function should be above the "levelOfHappiness" observer on line 2',
         line: 4,
       },
     ],
@@ -584,7 +585,7 @@ const invalidTestsFromEmberTestSuite = [
     errors: [
       {
         message:
-          'The "aaa" multi-line function should be above the "levelOfHappiness" observer on line 2',
+          'The "aaa" private multi-line function should be above the "levelOfHappiness" observer on line 2',
         line: 4,
       },
     ],
@@ -653,12 +654,12 @@ const invalidTestsFromEmberTestSuite = [
     errors: [
       {
         message:
-          'The "vehicle" single-line function should be above the "levelOfHappiness" multi-line function on line 4',
+          'The "vehicle" private single-line function should be above the "levelOfHappiness" private multi-line function on line 4',
         line: 7,
       },
       {
         message:
-          'The "role" private property should be above the "foo" single-line function on line 2',
+          'The "role" private property should be above the "foo" private single-line function on line 2',
         line: 9,
       },
     ],
@@ -750,7 +751,7 @@ const invalidTestsFromEmberTestSuite = [
     errors: [
       {
         message:
-          'The "tabindex" private property should be above the "someComputedValue" single-line function on line 3',
+          'The "tabindex" private property should be above the "someComputedValue" private single-line function on line 3',
         line: 5,
       },
     ],
@@ -765,7 +766,7 @@ const invalidTestsFromEmberTestSuite = [
     errors: [
       {
         message:
-          'The "name" private property should be above the "foo" multi-line function on line 2',
+          'The "name" private property should be above the "foo" private multi-line function on line 2',
         line: 4,
       },
     ],
@@ -804,22 +805,22 @@ const invalidTestsFromEmberTestSuite = [
   },
   {
     code: `export default Component.extend({
+      onFoo() {},
       foo: computed(function() {
       }).volatile(),
-      onFoo() {},
       bar() { const foo = 'bar'},
-      onBar: () => {}
+      onBar: () => {},
     });`,
     parserOptions: { ecmaVersion: 6, sourceType: 'module' },
     errors: [
       {
         message:
-          'The "onFoo" private empty method should be above the "foo" multi-line function on line 2',
-        line: 4,
+          'The "foo" private multi-line function should be above the "onFoo" private empty method on line 2',
+        line: 3,
       },
       {
         message:
-          'The "onBar" private empty method should be above the "foo" multi-line function on line 2',
+          'The "onBar" private empty method should be above the "bar" method on line 5',
         line: 6,
       },
     ],
@@ -845,7 +846,7 @@ const invalidTestsFromEmberTestSuite = [
     errors: [
       {
         message:
-          'The "vehicle" single-line function should be above the "levelOfHappiness" multi-line function on line 2',
+          'The "vehicle" private single-line function should be above the "levelOfHappiness" private multi-line function on line 2',
         line: 5,
       },
     ],
