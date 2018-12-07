@@ -16,12 +16,12 @@
   },
   "dependencies": {
     "deep-value": "^1.0.4",
-    "eslint": "^4.19.1",
+    "eslint": "^5.9.0",
     "eslint-config-prettier": "^3.1.0",
-    "eslint-plugin-ember": "^5.2.0",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-prettier": "2.7.0",
-    "requireindex": "~1.1.0"
+    "eslint-plugin-ember": "^6.0.1",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-prettier": "3.0.0",
+    "requireindex": "~1.2.0"
   },
   "devDependencies": {
     "husky": "^1.1.0",
@@ -30,7 +30,7 @@
     "prettier": "^1.14.3"
   },
   "engines": {
-    "node": ">=8.11"
+    "node": "8.* || 10.*"
   },
   "husky": {
     "hooks": {
