@@ -5,6 +5,7 @@
   "keywords": [
     "eslint",
     "eslint-plugin",
+    "eslintplugin",
     "ember.js",
     "styleguide"
   ],
@@ -28,6 +29,9 @@
     "jest": "^23.6.0",
     "precise-commits": "^1.0.2",
     "prettier": "^1.14.3"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5"
   },
   "engines": {
     "node": ">=8.11"
