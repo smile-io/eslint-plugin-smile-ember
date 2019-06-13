@@ -16,6 +16,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "babel-eslint": "^10.0.1",
     "deep-value": "^1.0.4",
     "eslint": "^5.10.0",
     "eslint-config-prettier": "^4.3.0",
@@ -25,10 +26,10 @@
     "requireindex": "~1.2.0"
   },
   "devDependencies": {
-    "husky": "^2.3.0",
+    "husky": "^2.4.0",
     "jest": "^24.8.0",
     "precise-commits": "^1.0.2",
-    "prettier": "^1.17.1"
+    "prettier": "^1.18.0"
   },
   "peerDependencies": {
     "eslint": ">= 5"
