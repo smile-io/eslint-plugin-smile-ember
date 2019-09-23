@@ -32,11 +32,14 @@
     "prettier": "^1.18.0"
   },
   "engines": {
-    "node": ">=8.11"
+    "node": ">=10.*"
   },
   "husky": {
     "hooks": {
       "pre-commit": "precise-commits"
     }
+  },
+  "volta": {
+    "node": "12.10.0"
   }
 }
