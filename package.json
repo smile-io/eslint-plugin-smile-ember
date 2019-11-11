@@ -32,7 +32,7 @@
     "prettier": "^1.18.0"
   },
   "engines": {
-    "node": ">=10.*"
+    "node": ">=8.*"
   },
   "husky": {
     "hooks": {
