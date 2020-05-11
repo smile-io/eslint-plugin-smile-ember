@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-smile-ember",
-  "version": "6.0.0",
+  "version": "7.0.0",
   "description": "smile.io's eslint rules for ember apps",
   "keywords": [
     "eslint",
@@ -32,7 +32,7 @@
     "prettier": "2.0.5"
   },
   "engines": {
-    "node": ">=8.*"
+    "node": ">=10.*"
   },
   "husky": {
     "hooks": {
