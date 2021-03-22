@@ -24,28 +24,20 @@ Add `smile-ember` to the plugins section of your `.eslintrc` configuration file.
 
 ```json
 {
-    "plugins": [
-        "smile-ember"
-    ]
+  "plugins": ["smile-ember"]
 }
 ```
-
 
 Then configure the rules you want to use under the rules section.
 
 ```json
 {
-    "rules": {
-        "smile-ember/rule-name": 2
-    }
+  "rules": {
+    "smile-ember/rule-name": 2
+  }
 }
 ```
 
 ## Supported Rules
 
-* Fill in provided rules here
-
-
-
-
-
+- Fill in provided rules here
