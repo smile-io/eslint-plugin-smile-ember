@@ -1,5 +1,7 @@
 # eslint-plugin-smile-ember
 
+[![npm version](https://badge.fury.io/js/eslint-plugin-smile-ember.svg)](https://badge.fury.io/js/eslint-plugin-smile-ember)
+
 smile.io&#39;s eslint rules for ember apps
 
 ## Installation
