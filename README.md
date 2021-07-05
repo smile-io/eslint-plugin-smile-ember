@@ -1,10 +1,12 @@
-# eslint-plugin-smile-ember
+eslint-plugin-smile-ember
+==============================================================================
 
 [![npm version](https://badge.fury.io/js/eslint-plugin-smile-ember.svg)](https://badge.fury.io/js/eslint-plugin-smile-ember)
 
 smile.io&#39;s eslint rules for ember apps
 
-## Installation
+Installation
+------------------------------------------------------------------------------
 
 You'll first need to install [ESLint](http://eslint.org):
 
@@ -20,7 +22,9 @@ $ npm install eslint-plugin-smile-ember --save-dev
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-smile-ember` globally.
 
-## Usage
+
+Usage
+------------------------------------------------------------------------------
 
 Add `smile-ember` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
@@ -40,6 +44,14 @@ Then configure the rules you want to use under the rules section.
 }
 ```
 
-## Supported Rules
+
+Supported Rules
+------------------------------------------------------------------------------
 
 - Fill in provided rules here
+ 
+
+Releasing
+------------------------------------------------------------------------------
+
+See the [Release](RELEASE.md) guide for details.
