@@ -1,3 +1,6 @@
+# Changelog
+
+
 ## v10.0.0 (2021-07-05)
 
 #### :house: Internal
@@ -73,7 +76,3 @@
 
 #### Committers: 1
 - Rafael Goulart ([@rafaelgoulart](https://github.com/rafaelgoulart))
-
-
-
-# Changelog
