@@ -1,6 +1,27 @@
 # Changelog
 
 
+## v11.0.0 (2022-01-03)
+
+#### :house: Internal
+* [#97](https://github.com/smile-io/eslint-plugin-smile-ember/pull/97) chore(deps): update dependency eslint-plugin-ember to v10.5.8 ([@renovate[bot]](https://github.com/apps/renovate))
+* [#101](https://github.com/smile-io/eslint-plugin-smile-ember/pull/101) chore(deps): update dependency prettier to v2.5.1 ([@renovate[bot]](https://github.com/apps/renovate))
+* [#103](https://github.com/smile-io/eslint-plugin-smile-ember/pull/103) chore(deps): update dependency release-it-lerna-changelog to v4 ([@renovate[bot]](https://github.com/apps/renovate))
+* [#99](https://github.com/smile-io/eslint-plugin-smile-ember/pull/99) chore(deps): update node.js to v16 ([@renovate[bot]](https://github.com/apps/renovate))
+* [#102](https://github.com/smile-io/eslint-plugin-smile-ember/pull/102) chore(deps): update dependency release-it to v14.11.8 ([@renovate[bot]](https://github.com/apps/renovate))
+* [#100](https://github.com/smile-io/eslint-plugin-smile-ember/pull/100) chore(deps): update dependency jest to v27.4.5 ([@renovate[bot]](https://github.com/apps/renovate))
+* [#95](https://github.com/smile-io/eslint-plugin-smile-ember/pull/95) chore(deps): update dependency jest to v27.4.3 ([@renovate[bot]](https://github.com/apps/renovate))
+* [#93](https://github.com/smile-io/eslint-plugin-smile-ember/pull/93) chore(deps): update code formatting ([@renovate[bot]](https://github.com/apps/renovate))
+* [#94](https://github.com/smile-io/eslint-plugin-smile-ember/pull/94) chore(deps): update linting tools ([@renovate[bot]](https://github.com/apps/renovate))
+* [#89](https://github.com/smile-io/eslint-plugin-smile-ember/pull/89) chore(deps): update dependency eslint to v7.32.0 ([@renovate[bot]](https://github.com/apps/renovate))
+* [#86](https://github.com/smile-io/eslint-plugin-smile-ember/pull/86) chore(deps): update dependency release-it to v14.10.1 ([@renovate[bot]](https://github.com/apps/renovate))
+* [#85](https://github.com/smile-io/eslint-plugin-smile-ember/pull/85) chore(deps): update linting tools ([@renovate[bot]](https://github.com/apps/renovate))
+* [#84](https://github.com/smile-io/eslint-plugin-smile-ember/pull/84) chore(deps): update dependency husky to v7 ([@renovate[bot]](https://github.com/apps/renovate))
+* [#83](https://github.com/smile-io/eslint-plugin-smile-ember/pull/83) chore(deps): update dependency release-it to v14.10.0 ([@renovate[bot]](https://github.com/apps/renovate))
+
+#### Committers: 0
+
+
 ## v10.0.0 (2021-07-05)
 
 #### :house: Internal
