@@ -1926,13 +1926,13 @@ crypto-random-string@^2.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
   integrity sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==
 
-css-tree@^1.0.0-alpha.39:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-1.0.1.tgz#7726678dfe2a57993a018d9dce519bf1760e3b6d"
-  integrity sha512-WroX+2MvsYcRGP8QA0p+rxzOniT/zpAoQ/DTKDSJzh5T3IQKUkFHeIIfgIapm2uaP178GWY3Mime1qbk8GO/tA==
+css-tree@^2.0.4:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-2.1.0.tgz#170e27ccf94e7c5facb183765c25898be843d1d2"
+  integrity sha512-PcysZRzToBbrpoUrZ9qfblRIRf8zbEAkU0AIpQFtgkFK0vSbzOmBCvdSAx2Zg7Xx5wiYJKUKk0NMP7kxevie/A==
   dependencies:
-    mdn-data "2.0.12"
-    source-map "^0.6.1"
+    mdn-data "2.0.27"
+    source-map-js "^1.0.1"
 
 cssom@^0.4.4:
   version "0.4.4"
@@ -2240,13 +2240,13 @@ eslint-config-prettier@8.3.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
 
-eslint-plugin-ember@10.5.8:
-  version "10.5.8"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-10.5.8.tgz#87e004a5ebed88f94008364554daf57df2c9c718"
-  integrity sha512-d21mJ+F+htgi6HhrjwbOfllJojF4ZWGruW13HkBoGS2SaHqKUyvIH/8j3EjSxlsGFiNfhTEUWkNaUSLJxgbtWg==
+eslint-plugin-ember@10.5.9:
+  version "10.5.9"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-ember/-/eslint-plugin-ember-10.5.9.tgz#4071ac135c7207c7d4942e9fa75b710214885469"
+  integrity sha512-kJsdAaKNcfRvZBZ+YZ67pxxUgl+aPLFAnoFJNwTo+BsaptiOCsHUEc4xUKXiInH2BJOC6mg0FQcZKn1a6gwKrA==
   dependencies:
     "@ember-data/rfc395-data" "^0.0.4"
-    css-tree "^1.0.0-alpha.39"
+    css-tree "^2.0.4"
     ember-rfc176-data "^0.3.15"
     eslint-utils "^3.0.0"
     estraverse "^5.2.0"
@@ -3966,10 +3966,10 @@ mdast-util-to-string@^3.1.0:
   resolved "https://registry.yarnpkg.com/mdast-util-to-string/-/mdast-util-to-string-3.1.0.tgz#56c506d065fbf769515235e577b5a261552d56e9"
   integrity sha512-n4Vypz/DZgwo0iMHLQL49dJzlp7YtAJP+N07MZHpjPf/5XJuHUWstviF4Mn2jEiR/GNmtnRRqnwsXExk3igfFA==
 
-mdn-data@2.0.12:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.12.tgz#bbb658d08b38f574bbb88f7b83703defdcc46844"
-  integrity sha512-ULbAlgzVb8IqZ0Hsxm6hHSlQl3Jckst2YEQS7fODu9ilNWy2LvcoSY7TRFIktABP2mdppBioc66va90T+NUs8Q==
+mdn-data@2.0.27:
+  version "2.0.27"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.27.tgz#1710baa7b0db8176d3b3d565ccb7915fc69525ab"
+  integrity sha512-kwqO0I0jtWr25KcfLm9pia8vLZ8qoAKhWZuZMbneJq3jjBD3gl5nZs8l8Tu3ZBlBAHVQtDur9rdDGyvtfVraHQ==
 
 merge-stream@^2.0.0:
   version "2.0.0"
@@ -5241,6 +5241,11 @@ socks@^2.6.1:
   dependencies:
     ip "^1.1.5"
     smart-buffer "^4.1.0"
+
+source-map-js@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
+  integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
 
 source-map-support@^0.5.6:
   version "0.5.16"
