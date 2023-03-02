@@ -28,7 +28,7 @@
     "babel-eslint": "10.1.0",
     "eslint": "8.34.0",
     "eslint-config-prettier": "8.6.0",
-    "eslint-plugin-ember": "11.4.2",
+    "eslint-plugin-ember": "11.4.7",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-prettier": "4.2.1",
     "husky": "8.0.2",
