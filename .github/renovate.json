@@ -1,3 +1,4 @@
 {
-  "extends": ["github>smile-io/renovate-config:ember/addon"]
+  "extends": ["github>smile-io/renovate-config:ember/addon"],
+  "enabled": false,
 }
